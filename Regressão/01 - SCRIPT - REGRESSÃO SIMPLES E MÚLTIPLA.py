@@ -6,21 +6,6 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[0.1]: Instalação dos pacotes
-
-!pip install pandas
-!pip install numpy
-!pip install -U seaborn
-!pip install matplotlib
-!pip install plotly
-!pip install scipy
-!pip install statsmodels
-!pip install scikit-learn
-!pip install playsound
-!pip install pingouin
-!pip install emojis
-!pip install statstests
-
 # In[0.2]: Importação dos pacotes
 
 import pandas as pd # manipulação de dados em formato de dataframe
