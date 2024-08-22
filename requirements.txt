@@ -12,3 +12,4 @@ p2j==1.3.2
 pingouin==0.5.4
 emojis==0.7.0
 statstests==1.0.7
+googletrans==4.0.0-rc1
