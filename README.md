@@ -1,7 +1,12 @@
 # Modelos Supervisionados de Machine Learning
 
-São modelos preditivos, ou seja, que tentam prever o comportamento de observações de fora da amostra.
+**O que são?** São modelos preditivos, ou seja, que tentam prever o comportamento de observações de fora da amostra.
 
-A diferença de magnitude das variáveis não impacta nos resultados uma vez que modelos supervisionados não calculam distâncias. Portanto, a padronização não é necessária (compensada pelo beta).
+- A diferença de magnitude das variáveis não impacta nos resultados uma vez que modelos supervisionados não calculam distâncias. Portanto, a padronização não é necessária (compensada pelo beta).
+- A normalização, entretanto, pode ser necessária (necessário avaliar).
 
-A normalização, entretanto, pode ser necessária (avaliar).
+## Modelos GLM (Modelos Lineares Generalizados)
+
+Classe de modelos estatísticos que generalizam a regressão linear ao permitir diferentes distribuições para a variável resposta e diferentes funções de ligação.
+
+[imagem resumo aqui em breve]
