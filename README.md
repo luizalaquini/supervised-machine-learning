@@ -9,7 +9,16 @@
 
 Classe de modelos estatísticos que generalizam a regressão linear ao permitir diferentes distribuições para a variável resposta e diferentes funções de ligação.
 
-[imagem resumo aqui em breve]
+\[ Y = f(X_1, X_2, X_3, ..., X_k) \]
+
+| Modelo de Regressão                    | Característica da Variável Dependente            | Distribuição                          |
+|----------------------------------------|--------------------------------------------------|---------------------------------------|
+| **Linear**                             | Quantitativa                                     | Normal                                |
+| **Com Transformação de Box-Cox**       | Quantitativa                                     | Normal Após a Transformação           |
+| **Logística Binária**                  | Qualitativa com 2 Categorias (_Dummy_)           | Bernoulli                             |
+| **Logística Multinomial**              | Qualitativa M (_M > 2_ Categorias)               | Binomial                              |
+| **Poisson**                            | Quantitativa com Valores Inteiros e Não Negativos (_Dados de Contagem_) | Poisson        |
+| **Binomial Negativo**                  | Quantitativa com Valores Inteiros e Não Negativos (_Dados de Contagem_) | Poisson-Gama   |
 
 ## Observação
 
